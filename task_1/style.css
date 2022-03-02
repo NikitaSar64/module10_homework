@@ -1,0 +1,15 @@
+button{
+    height: 40px;
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}

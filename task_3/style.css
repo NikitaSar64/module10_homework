@@ -1,0 +1,51 @@
+.chat{
+    width: 550px;
+}
+
+.send-message{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+button{
+    width: 120px;
+}
+
+div input{
+    width: 220px;
+    margin-right: 15px;
+}
+
+.text-area{
+    height: 300px;
+    border: 1px solid black;
+    position: relative;
+    padding: 7px;
+    overflow: auto;
+}
+
+.text-area div{
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 18px;
+    padding: 5px;
+    margin-bottom: 10px;
+    animation: move 0.5s;
+}
+
+.right{
+    margin-left: auto;
+}
+
+@keyframes move {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
